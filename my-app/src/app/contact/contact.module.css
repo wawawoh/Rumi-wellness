@@ -1,0 +1,14 @@
+.card {
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(207, 218, 184, 1) 100%);
+    /* color: blue; */
+    border: white solid 2px;
+    border-bottom: rgb(171, 185, 169) solid 2px;
+    border-radius: 1rem;
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem;
+    }
+}

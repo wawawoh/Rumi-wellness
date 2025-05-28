@@ -1,4 +1,5 @@
 import RealService from "../components/realService";
+import styles from "./service.module.css";
 export default function Services() {
   const DryCupping = [
     "Headache Relief",
@@ -31,7 +32,7 @@ export default function Services() {
   ];
   return (
     <>
-      <section className="hero">
+      <section className={styles.hero}>
         <h1>My services</h1>
       </section>
       <section className="quote"></section>

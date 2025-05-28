@@ -1,0 +1,31 @@
+/* GLOBALS */
+
+
+
+
+
+/* HERO */
+.hero {
+    background-image: url(/images/simon-humler--AakIaAPV0w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 25vh 9vw;
+    
+    text-align: left;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    p {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    button {
+        align-self: center;
+    }
+    
+}
+/* QUOTE */
+/* SERVICES */
+/* WHO I AM  */

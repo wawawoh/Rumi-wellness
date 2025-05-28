@@ -1,11 +1,14 @@
 "use client";
 import Image from "next/image";
+import styles from "./realService.module.css";
+import { useState } from "react";
 function RealService({ title, descrip, img, benefits }) {
   const listItems = benefits.map((benefit, index) => (
     <li key={index}>{benefit}</li>
   ));
+  const [active, setActive] = useState(false);
   return (
-    <div>
+    <div className={styles.moduleCard}>
       <Image
         src={img}
         alt="A description of the photo"
@@ -14,8 +17,14 @@ function RealService({ title, descrip, img, benefits }) {
       />
       <h3>{title}</h3>
       <p>{descrip}</p>
-      <button>read more</button>
-      <section className="read-more">
+      <button onClick={() => setActive((prev) => !prev)}>
+        {active ? "hide benefits" : "show benefits"}
+      </button>
+      <section
+        className={`${styles.readMore} ${
+          active ? styles.active : styles.inactive
+        }`}
+      >
         <ul className="benefits-list">{listItems}</ul>
       </section>
     </div>

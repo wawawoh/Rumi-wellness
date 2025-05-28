@@ -1,18 +1,20 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import ServiceCard from "./components/serviceCard";
+import homeStyles from "./home.module.css";
 
 export default function Home() {
   return (
     <>
-      <div className="hero">
+      <div className={homeStyles.hero}>
         <h1>Rumi&#39;s Wellness</h1>
         <p>
           Relax deeply <br /> revive deeply <br /> recharge completely{" "}
         </p>
+        <button>Let's book an appointment</button>
       </div>
       <section className="quote">
-        <blockquote>What you are seeking is seeking you</blockquote>
+        <blockquote>"What you are seeking is seeking you"</blockquote>
       </section>
       <section className="what-is-cupping">
         <h2>What is Cupping</h2>
@@ -24,7 +26,9 @@ export default function Home() {
           Many describe it as a form of deep-tissue massage with added
           therapeutic benefits.
         </p>
-        <p>Benefits of Cupping & Myofascial Decompression</p>
+      </section>
+      <section>
+        <h2>Benefits of Cupping & Myofascial Decompression</h2>
         <ul>
           <li>Eases muscle pain and stiffness</li>
           <li>Improves circulation and oxygen flow</li>
@@ -35,6 +39,7 @@ export default function Home() {
       </section>
 
       <section className="service-overview">
+        <h2>We do...</h2>
         <ServiceCard
           title={"wet cupping"}
           descrip={"something wet"}
@@ -50,6 +55,7 @@ export default function Home() {
           descrip={"something masagy"}
           img={"placeholder"}
         />
+        <button>see all my services</button>
       </section>
 
       <section className="about-me">
@@ -63,9 +69,9 @@ export default function Home() {
         <p>
           Hi, I&#39;m the practitioner behind Rumi’s Wellness Clinic. I offer
           personalised cupping and massage therapy for men, either at my quiet
-          space in Kingsbury (NW9) or in the comfort of your home. I&#39;m
-          certified by ICAHT and registered with GRCCT (UK), with a focus on
-          holistic care and performance recovery.
+          space in Kingsbury (NW9) or in the comfort of your home. <br /> <br />{" "}
+          I&#39;m certified by ICAHT and registered with GRCCT (UK), with a
+          focus on holistic care and performance recovery.
         </p>
       </section>
     </>
