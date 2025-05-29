@@ -9,12 +9,12 @@ export default function Home() {
       <div className={homeStyles.hero}>
         <h1>Rumi&#39;s Wellness</h1>
         <p>
-          Relax deeply <br /> revive deeply <br /> recharge completely{" "}
+          Relax deeply. <br /> Revive Fully. <br /> Recharge completely.
         </p>
         <button>Let's book an appointment</button>
       </div>
       <section className="quote">
-        <blockquote>"What you are seeking is seeking you"</blockquote>
+        <blockquote>"What you are seeking is seeking you" ~ Rumi </blockquote>
       </section>
       <section className="what-is-cupping">
         <h2>What is Cupping</h2>
@@ -42,7 +42,7 @@ export default function Home() {
         <h2>We do...</h2>
         <ServiceCard
           title={"wet cupping"}
-          descrip={"something wet"}
+          descrip={"blood letting"}
           img={"placeholder"}
         />
         <ServiceCard
@@ -65,7 +65,7 @@ export default function Home() {
           width={500}
           height={300}
         />
-        <h2>meet abumama</h2>
+        <h2>Meet Abubaker</h2>
         <p>
           Hi, I&#39;m the practitioner behind Rumi’s Wellness Clinic. I offer
           personalised cupping and massage therapy for men, either at my quiet

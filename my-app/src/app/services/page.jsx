@@ -37,18 +37,11 @@ export default function Services() {
       </section>
       <section className="quote">
         <blockquote>
-          “The wound is the place where the light enters you.”
+          “Your body is precious, it is your vehicle for awakening. Treat it
+          with care ~ Budda”
         </blockquote>
       </section>
       <section className={styles.container}>
-        <RealService
-          title={"Dry Cupping"}
-          descrip={
-            "Dry cupping is also another ancient medicinal practice, which our practitioners have several years’ experience in. Unlike Wet Cupping, Dry Cupping does not involve drawing out toxic and stagnated blood through incisions."
-          }
-          img={temporaryImg}
-          benefits={DryCupping}
-        />
         <RealService
           title={"Wet Cupping"}
           descrip={
@@ -57,10 +50,20 @@ export default function Services() {
           img={temporaryImg}
           benefits={wetCupping}
         />
+
+        <RealService
+          title={"Dry Cupping"}
+          descrip={
+            "Dry cupping is also another ancient medicinal practice, which our practitioners have several years’ experience in. Unlike Wet Cupping, Dry Cupping does not involve drawing out toxic and stagnated blood through incisions."
+          }
+          img={temporaryImg}
+          benefits={DryCupping}
+        />
+
         <RealService
           title={"Fire Cupping"}
           descrip={
-            "Fire cupping is a traditional therapy that uses heat and suction to support the body’s natural healing. It’s often described as a “reverse massage” Instead of applying pressure, it gently lifts the skin and muscles to release tension, improve circulation, and help you feel more balanced."
+            "Fire cupping is a traditional therapy that uses heat and suction to support the body’s natural healing. A flame is briefly placed inside a glass cup to create a vacuum before the cup is applied to the skin. The heat from the cup transfers into the body, helping to release stiffness in the muscles and fascia. This gentle suction lifts the skin like a “reverse massage” to ease tension, improve circulation, and leave you feeling more relaxed and loosened."
           }
           img={temporaryImg}
           benefits={fireCupping}

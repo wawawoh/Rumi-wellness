@@ -8,7 +8,11 @@ export default function Contact() {
       <section className={serviceStyles.hero}>
         <h1>Contact me </h1>
       </section>
-      <section className="quote"></section>
+      <section className="quote">
+        <blockquote>
+          "If light is in your heart, you will find your way home" ~ Rumi
+        </blockquote>
+      </section>
       <section className="contact-options">
         <section className={styles.card}>
           <div>

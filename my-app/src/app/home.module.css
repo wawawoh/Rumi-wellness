@@ -42,7 +42,7 @@
     align-items: center;
   img {
     object-fit: contain;
-    object-position: center;
+    object-position: cover;
 
     max-width: 90%;
     height: 90%;
