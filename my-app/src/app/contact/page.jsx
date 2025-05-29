@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./contact.module.css";
+import Image from "next/image";
 import serviceStyles from "../services/service.module.css";
 export default function Contact() {
   return (
@@ -12,16 +13,26 @@ export default function Contact() {
         <section className={styles.card}>
           <div>
             <h2>Whatsapp Message</h2>
-            <img src="" alt="whatsap logo" />
+            <Image
+              src={"/images/whatsapp-svgrepo-com.svg"}
+              width={64}
+              height={64}
+              alt="whatsapp icon"
+            />
           </div>
-          <button>Send me a message</button>
+          <button className="btn-4">Send me a message</button>
         </section>
         <section className={styles.card}>
           <div>
             <h2>Phone Call</h2>
-            <img src="" alt="phone logo" />
+            <Image
+              src={"/images/phone-call-svgrepo-com.svg"}
+              width={64}
+              height={64}
+              alt="phone icon"
+            />
           </div>
-          <button>Phone me yess</button>
+          <button className="btn-4">Phone me yess</button>
         </section>
       </section>
     </>

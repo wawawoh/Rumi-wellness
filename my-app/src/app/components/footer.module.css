@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+background-color: #dedccd;
+    img {
+        width: 9rem;
+        height: 9rem;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 7rem;
+    
+    }
+    a {
+        text-decoration: none;
+        color: #153A37;
+        font-size: 1.2em;
+    }
+}

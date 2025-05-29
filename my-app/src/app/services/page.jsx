@@ -35,8 +35,12 @@ export default function Services() {
       <section className={styles.hero}>
         <h1>My services</h1>
       </section>
-      <section className="quote"></section>
-      <section className="services-container">
+      <section className="quote">
+        <blockquote>
+          “The wound is the place where the light enters you.”
+        </blockquote>
+      </section>
+      <section className={styles.container}>
         <RealService
           title={"Dry Cupping"}
           descrip={
@@ -71,11 +75,13 @@ export default function Services() {
         />
         <RealService
           title={"Full Body Massage"}
-          descrip={"Take your clothes off Your body works hard let reover"}
+          descrip={"TAbumama didnt tell me much im sure he will later"}
           img={temporaryImg}
           benefits={fullBodyMassage}
         />
+        <button className="btn-4">Book A Service</button>
       </section>
+      <div className={styles.button}></div>
     </>
   );
 }

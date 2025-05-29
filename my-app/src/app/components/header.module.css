@@ -1,0 +1,38 @@
+.container {
+    z-index: 1000;
+    position: fixed;
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dedccd;
+    top:0;
+    p {
+        font-size: 1.4em;
+    }
+    img {
+        width: 7rem;
+        aspect-ratio:  1 / 1;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 7rem;
+    
+    }
+}
+.grey {
+    background-color: #75746b;
+    z-index: 90;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.grey.active {
+    opacity: 0.5;
+    pointer-events: all;
+}
+.grey.inactive {
+    opacity: 0;
+    pointer-events: none;
+}

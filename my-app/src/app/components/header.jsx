@@ -2,22 +2,33 @@
 import Image from "next/image";
 import { useState } from "react";
 import Navbar from "./navbar";
+import styles from "./header.module.css";
 
 function Header() {
   const [showNav, setShowNav] = useState(false);
   return (
-    <div>
-      <img
-        src="https://picsum.photos/200/300"
-        alt="b"
-        width="200"
-        height="300"
-      />
-      <h1>this is the header</h1>
-      <p onClick={() => setShowNav(true)}>burger</p>
+    <>
+      <div className={styles.container}>
+        <Image src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
+        <h2>Rumi's wellness</h2>
 
-      <Navbar showNav={showNav} setShowNav={setShowNav} />
-    </div>
+        <Image
+          onClick={() => setShowNav(true)}
+          src="images/burger-menu-right-svgrepo-com.svg"
+          alt="BURGER"
+          width={64}
+          height={64}
+        />
+
+        <Navbar showNav={showNav} setShowNav={setShowNav} />
+      </div>
+
+      <div
+        className={`${styles.grey} ${
+          showNav ? styles.active : styles.inactive
+        }`}
+      ></div>
+    </>
   );
 }
 export default Header;

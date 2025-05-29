@@ -11,6 +11,17 @@ border-radius: 1rem;
 padding: 2rem;
 padding-bottom: 1rem;
 margin-bottom: 4rem;
+
+button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    padding: 0.3rem 1rem;
+}
+button:active {
+    transform: scale(0.9);
+}
+
 }
 
 

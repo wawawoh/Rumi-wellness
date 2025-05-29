@@ -1,12 +1,12 @@
-.active {
-    transform: translate(0);
-    
-/* GLBOAL STYLES */
-display: flex;
+
+
+.navbar {
+    display: flex;
+z-index: 103;
     flex-direction: column;
     position: absolute;
     right: 0;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     min-height: 100vh;
     width: 50vw;
     top: 0;
@@ -14,22 +14,23 @@ display: flex;
     flex-direction: column;
     gap: 2rem;
     padding-top: 25vh;
+    a {
+        text-decoration: none;
+        color: #153A37;
+        font-size: 1.4em;
+    }
+
+}
+
+.active {
+    transform: translate(0);
+    /* transition: ; */
+
     
 }
 
-
 .inactive {
+    z-index: 103;
     transform: translate(100%);
-/* GLOBAL STYLES */
-     display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    background-color: gray;
-    min-height: 100vh;
-    width: 50vw;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+
 }

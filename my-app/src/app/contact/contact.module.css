@@ -7,8 +7,12 @@
     border-radius: 1rem;
     div {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+
         align-items: center;
-        padding: 4rem;
+        padding: 1rem 10%;
+    }
+    img {
+        max-width: 20%;
     }
 }

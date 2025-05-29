@@ -1,3 +1,5 @@
+
+
 :root {
   --background: #ffffff;
   
@@ -65,7 +67,11 @@ text-align: center;
 display: flex;
 flex-direction: column;
 gap: 1rem;
-font-family: Ancizar Sans;
+p, button {
+  font-family: Ancizar Sans;
+
+}
+
 color: #153A37;
 }
 section {
@@ -74,7 +80,92 @@ section {
     flex-direction: column;
     gap: 1rem;
 }
-h1 {
+h1, h2 {
   font-size: 3rem;
+  
+  font-family: var(--font-crimson);
+
+}
+h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.btn-4,
+.btn-4 *,
+.btn-4 :after,
+.btn-4 :before,
+.btn-4:after,
+.btn-4:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-4 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #ffffff;
+  background-image: none;
+  color: #153A37;
+  cursor: pointer;
+ 
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#ffffff, #153A37);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-4:disabled {
+  cursor: default;
+}
+.btn-4:-moz-focusring {
+  outline: auto;
+}
+.btn-4 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-4 [hidden] {
+  display: none;
+}
+.btn-4 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.5rem 2rem;
+  position: relative;
+}
+.btn-4 span {
+  mix-blend-mode: difference;
+}
+.btn-4:before {
+  --tilt: 1.2rem;
+  background: #59765f;
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 100%,
+    0 100%
+  );
+  clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 100%, 0 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: calc(-100% - var(--tilt));
+  position: absolute;
+  top: 0;
+  transform: translateX(var(--progress, 0));
+  transition: transform 0.2s ease;
+  width: calc(100% + var(--tilt));
+}
+.btn-4:hover:before {
+  --progress: 100%;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  color: #59765f;
 }
 

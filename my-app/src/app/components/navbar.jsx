@@ -1,9 +1,20 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
+import Image from "next/image";
 function Navbar({ showNav, setShowNav }) {
   return (
-    <div className={` ${showNav ? styles.active : styles.inactive}`}>
-      <p onClick={() => setShowNav(false)}>cross </p>
+    <div
+      className={`${styles.navbar} ${
+        showNav ? styles.active : styles.inactive
+      }`}
+    >
+      <Image
+        onClick={() => setShowNav(false)}
+        src="/images/cross-svgrepo-com (1).svg"
+        alt="cross"
+        width={64}
+        height={64}
+      />
       <Link onClick={() => setShowNav(false)} href="/">
         Home
       </Link>

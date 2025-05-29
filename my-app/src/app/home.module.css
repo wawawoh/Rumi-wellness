@@ -6,10 +6,12 @@
 
 /* HERO */
 .hero {
-    background-image: url(/images/simon-humler--AakIaAPV0w-unsplash.jpg);
+    text-transform: capitalize;
+    background-image: url(/images/mobileHero.jpeg);
     background-position: center;
     background-size: cover;
     padding: 25vh 9vw;
+    color: white;
     
     text-align: left;
     font-size: 1.8rem;
@@ -19,13 +21,31 @@
     /* align-items: center; */
     p {
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 27vh;
+        
     }
     button {
+        border-radius: 3rem;
+        border: white solid 1px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 3% 3%;
         align-self: center;
+        /* color: white; */
     }
     
 }
 /* QUOTE */
 /* SERVICES */
 /* WHO I AM  */
+.aboutMe {
+    display: flex;
+    align-items: center;
+  img {
+    object-fit: contain;
+    object-position: center;
+
+    max-width: 90%;
+    height: 90%;
+    border-radius: 60%;
+  }
+}

@@ -55,12 +55,12 @@ export default function Home() {
           descrip={"something masagy"}
           img={"placeholder"}
         />
-        <button>see all my services</button>
+        <button className="btn-4">see all my services</button>
       </section>
 
-      <section className="about-me">
+      <section className={homeStyles.aboutMe}>
         <Image
-          src="/my-photo.jpg"
+          src="/images/abumama.jpeg"
           alt="Abumama face"
           width={500}
           height={300}

@@ -1,4 +1,15 @@
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./footer.module.css";
 function Footer() {
-  return <h1>this is the footer</h1>;
+  return (
+    <section className={styles.footer}>
+      <Image src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
+      <Link href="/">Home</Link>
+      <Link href="/services">servies</Link>
+      <Link href="/contact">Contact</Link>
+      <h5>Follow me! </h5>
+    </section>
+  );
 }
 export default Footer;
