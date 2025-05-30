@@ -67,7 +67,7 @@ text-align: center;
 display: flex;
 flex-direction: column;
 gap: 1rem;
-p, button {
+p, button, h2, ul, li, h1 {
   font-family: Ancizar Sans;
 
 }
@@ -80,16 +80,19 @@ section {
     flex-direction: column;
     gap: 1rem;
 }
-h1, h2 {
-  font-size: 3rem;
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
   
-  font-family: var(--font-crimson);
+  /* font-family: var(--font-noto); */
 
 }
 h2 {
   font-size: 2rem;
   text-decoration: underline;
 }
+
+
 
 .btn-4,
 .btn-4 *,
@@ -169,3 +172,9 @@ h2 {
   color: #59765f;
 }
 
+
+@media screen and (min-width:1000px) {
+        section {
+          padding:  2% 10%;
+        }
+}

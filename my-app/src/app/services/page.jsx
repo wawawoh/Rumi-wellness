@@ -82,9 +82,8 @@ export default function Services() {
           img={temporaryImg}
           benefits={fullBodyMassage}
         />
-        <button className="btn-4">Book A Service</button>
       </section>
-      <div className={styles.button}></div>
+      <button className="btn-4">Book A Service</button>
     </>
   );
 }

@@ -44,8 +44,13 @@
     object-fit: contain;
     object-position: cover;
 
-    max-width: 90%;
-    height: 90%;
+    max-width: 80%;
+    height: 70%;
     border-radius: 60%;
   }
+}
+@media screen and (min-width:1000px) {
+        .serviceCards {
+          padding: 10%;
+        }
 }

@@ -10,10 +10,12 @@ export default function Contact() {
       </section>
       <section className="quote">
         <blockquote>
-          "If light is in your heart, you will find your way home" ~ Rumi
+          “Come, whoever you are...” <br />
+          If you want to keep it clean and quietly spiritual, go with “If light
+          is in your heart...” ~ Rumi
         </blockquote>
       </section>
-      <section className="contact-options">
+      <section className={styles.contactOptions}>
         <section className={styles.card}>
           <div>
             <h2>Whatsapp Message</h2>
@@ -36,7 +38,7 @@ export default function Contact() {
               alt="phone icon"
             />
           </div>
-          <button className="btn-4">Phone me yess</button>
+          <button className="btn-4">Phone me</button>
         </section>
       </section>
     </>

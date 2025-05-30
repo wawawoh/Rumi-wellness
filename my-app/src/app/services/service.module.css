@@ -9,5 +9,18 @@
 }
 .container {
     padding: 1rem;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width:1000px) {
+        .container {
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr;
+            grid-template-rows: repeat(3, 30%);
+                    padding: 0% 10%;
+            gap: 7%;
+                    place-items: baseline;
+
+        } 
 }
 
