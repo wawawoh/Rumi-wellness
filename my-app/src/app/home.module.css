@@ -39,6 +39,7 @@
 /* WHO I AM  */
 .aboutMe {
     display: flex;
+    flex-direction: column;
     align-items: center;
   img {
     object-fit: contain;
@@ -48,9 +49,27 @@
     height: 70%;
     border-radius: 60%;
   }
+  h2, p {
+    margin: 1rem;
+  }
 }
 @media screen and (min-width:1000px) {
         .serviceCards {
           padding: 10%;
         }
+        .aboutMe {
+          flex-direction: row;
+          gap: 3rem;
+        }
+        .hero {
+          p {
+          margin-bottom: 10vh;
+        }
+        button {
+          align-self: flex-start;
+          padding: 1rem 2rem;
+        }
+
+        }
+        
 }

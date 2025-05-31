@@ -1,5 +1,19 @@
 .hero {
-    background-color: black;
+    background-image: url(/images/hero-2\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10vh 3vh;
+    margin-top: 5rem;
+}
+
+.herotwo {
+    background-image: url(/images/hero-2\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
     color: white;
     background-position: center;
     background-size: cover;
@@ -10,6 +24,9 @@
 .container {
     padding: 1rem;
     margin-bottom: 5%;
+}
+.btnContainer {
+    padding: 0 2%;
 }
 
 @media screen and (min-width:1000px) {

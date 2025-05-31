@@ -12,7 +12,8 @@
         font-size: 1.4em;
     }
     img {
-        width: 7rem;
+        min-width:  5%;
+        max-width: 10%;
         aspect-ratio:  1 / 1;
         object-fit: contain;
         object-position: center;
@@ -35,4 +36,14 @@
 .grey.inactive {
     opacity: 0;
     pointer-events: none;
+}
+
+@media screen and (min-width:1000px) {
+        .container {
+            height: 7rem;
+            img {
+                max-width: 9%;
+                max-height: 7rem;
+            }
+        }
 }

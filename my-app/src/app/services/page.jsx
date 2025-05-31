@@ -83,7 +83,9 @@ export default function Services() {
           benefits={fullBodyMassage}
         />
       </section>
-      <button className="btn-4">Book A Service</button>
+      <div className={styles.btnContainer}>
+        <button className="btn-4">Book A Service</button>
+      </div>
     </>
   );
 }

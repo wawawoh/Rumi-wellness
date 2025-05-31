@@ -65,30 +65,32 @@ export default function Home() {
           width={500}
           height={300}
         />
-        <h2>Meet Abubakar</h2>
-        <p>
-          Hi, I’m the practitioner behind Rumi’s Wellness Clinic — where healing
-          isn’t just a treatment, but a whole experience. I offer personalized
-          cupping and massage therapy for men, either at my peaceful space in
-          Kingsbury or in the comfort of your home.
-        </p>
+        <div className={homeStyles.ac}>
+          <h2>Meet Abubakar</h2>
+          <p>
+            Hi, I’m the practitioner behind Rumi’s Wellness Clinic — where
+            healing isn’t just a treatment, but a whole experience. I offer
+            personalized cupping and massage therapy for men, either at my
+            peaceful space in Kingsbury or in the comfort of your home.
+          </p>
 
-        <p>
-          Certified by ICAHT and registered with the GRCC UK, my approach is
-          rooted in holistic care and performance therapy.
-        </p>
+          <p>
+            Certified by ICAHT and registered with the GRCC UK, my approach is
+            rooted in holistic care and performance therapy.
+          </p>
 
-        <p>
-          At Rumi’s, the focus is not just on relieving pain or tension, it’s
-          about creating a space where you can unplug, reset, and reconnect. The
-          atmosphere is designed to help you slow down and breathe deeply.
-        </p>
-        <p>
-          Whether you're looking to ease muscle soreness, boost circulation, or
-          simply take a mindful pause, this is your time to relax, revive, and
-          recharge.
-        </p>
-        <p>Welcome to Rumi’s — where ancient wisdom meets modern healing.</p>
+          <p>
+            At Rumi’s, the focus is not just on relieving pain or tension, it’s
+            about creating a space where you can unplug, reset, and reconnect.
+            The atmosphere is designed to help you slow down and breathe deeply.
+          </p>
+          <p>
+            Whether you're looking to ease muscle soreness, boost circulation,
+            or simply take a mindful pause, this is your time to relax, revive,
+            and recharge.
+          </p>
+          <p>Welcome to Rumi’s — where ancient wisdom meets modern healing.</p>
+        </div>
       </section>
     </>
   );

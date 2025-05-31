@@ -5,14 +5,13 @@ import serviceStyles from "../services/service.module.css";
 export default function Contact() {
   return (
     <>
-      <section className={serviceStyles.hero}>
+      <section className={serviceStyles.herotwo}>
         <h1>Contact me </h1>
       </section>
       <section className="quote">
         <blockquote>
-          “Come, whoever you are...” <br />
-          If you want to keep it clean and quietly spiritual, go with “If light
-          is in your heart...” ~ Rumi
+          "The most precious gift we can offer anyone is our attention." ~ Thich
+          Nhat Hanh
         </blockquote>
       </section>
       <section className={styles.contactOptions}>
