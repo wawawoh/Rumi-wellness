@@ -92,6 +92,18 @@ h2 {
   text-decoration: underline;
 }
 
+.button-link {
+  width: fit-content;
+  align-self: center;
+}
+.good-button-link {
+   width: fit-content;
+   align-self: center;
+  
+}
+.button-link:active {
+  transform: scale(0.9);
+}
 
 
 .btn-4,

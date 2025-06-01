@@ -25,7 +25,9 @@ export default function Contact() {
               alt="whatsapp icon"
             />
           </div>
-          <button className="btn-4">Send me a message</button>
+          <Link className="good-button-link" href="https://wa.me/447939022878">
+            <button className="btn-4">Send me a message</button>
+          </Link>
         </section>
         <section className={styles.card}>
           <div>
@@ -37,7 +39,9 @@ export default function Contact() {
               alt="phone icon"
             />
           </div>
-          <button className="btn-4">Phone me</button>
+          <Link className="good-button-link" href="tel:+447939022878">
+            <button className="btn-4">Phone me</button>
+          </Link>
         </section>
       </section>
     </>

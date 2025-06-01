@@ -15,6 +15,9 @@
     img {
         max-width: 20%;
     }
+    h2 {
+        text-decoration: none;
+    }
 }
 .contactOptions {
     display: flex;

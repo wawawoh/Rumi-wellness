@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import ServiceCard from "./components/serviceCard";
 import homeStyles from "./home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <p>
           Relax deeply. <br /> Revive Fully. <br /> Recharge completely.
         </p>
-        <button>Let's book an appointment</button>
+        <Link className="button-link" href="/contact">
+          <button>Let's book an appointment</button>
+        </Link>
       </div>
       <section className="quote">
         <blockquote>"What you are seeking is seeking you" ~ Rumi </blockquote>
@@ -41,7 +44,7 @@ export default function Home() {
       <section className={homeStyles.serviceCards}>
         <h2>We do...</h2>
         <ServiceCard
-          title={"wet cupping"}
+          title={"Wet cupping"}
           descrip={"blood letting"}
           img={"placeholder"}
         />
@@ -55,7 +58,9 @@ export default function Home() {
           descrip={"Muscle Relief"}
           img={"placeholder"}
         />
-        <button className="btn-4">see all my services</button>
+        <Link className="good-button-link" href="/services">
+          <button className="btn-4">See all my services</button>
+        </Link>
       </section>
 
       <section className={homeStyles.aboutMe}>

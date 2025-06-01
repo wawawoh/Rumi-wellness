@@ -8,12 +8,16 @@
     justify-content: space-around;
     background-color: #dedccd;
     top:0;
+    h2 {
+        text-decoration: none;
+    }
     p {
         font-size: 1.4em;
     }
     img {
-        min-width:  5%;
-        max-width: 10%;
+        max-height:  8rem;
+        max-width: 8rem;
+        /* max-width: 10%; */
         aspect-ratio:  1 / 1;
         object-fit: contain;
         object-position: center;

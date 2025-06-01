@@ -10,7 +10,7 @@ function Header() {
     <>
       <div className={styles.container}>
         <Image src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
-        <h2>Rumi's wellness</h2>
+        <h2>Rumi's Wellness</h2>
 
         <Image
           onClick={() => setShowNav(true)}

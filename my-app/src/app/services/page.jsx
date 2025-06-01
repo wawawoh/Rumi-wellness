@@ -1,12 +1,14 @@
 import RealService from "../components/realService";
 import styles from "./service.module.css";
+import Link from "next/link";
+
 export default function Services() {
   const DryCupping = [
     "Headache Relief",
     "Plantar Fasciitis Relief",
     "Boosting Immunity & Detox",
   ];
-  const temporaryImg = "/images/simon-humler--AakIaAPV0w-unsplash.jpg";
+  const temporaryImg = "/images/dry-cupping.jpg";
 
   const wetCupping = [
     "Stress and anxiety relief",
@@ -47,7 +49,7 @@ export default function Services() {
           descrip={
             "Wet cupping, or Hijama, gently removes stagnant blood and toxins from the body. It’s often used to ease pain, clear inflammation, and support natural healing."
           }
-          img={temporaryImg}
+          img="/images/wet-cupping.jpeg"
           benefits={wetCupping}
         />
 
@@ -56,7 +58,7 @@ export default function Services() {
           descrip={
             "Dry cupping is also another ancient medicinal practice, which our practitioners have several years’ experience in. Unlike Wet Cupping, Dry Cupping does not involve drawing out toxic and stagnated blood through incisions."
           }
-          img={temporaryImg}
+          img="/images/dry-cupping.jpg"
           benefits={DryCupping}
         />
 
@@ -65,7 +67,7 @@ export default function Services() {
           descrip={
             "Fire cupping is a traditional therapy that uses heat and suction to support the body’s natural healing. A flame is briefly placed inside a glass cup to create a vacuum before the cup is applied to the skin. The heat from the cup transfers into the body, helping to release stiffness in the muscles and fascia. This gentle suction lifts the skin like a “reverse massage” to ease tension, improve circulation, and leave you feeling more relaxed and loosened."
           }
-          img={temporaryImg}
+          img="/images/fire-cup.jpeg"
           benefits={fireCupping}
         />
         <RealService
@@ -73,19 +75,23 @@ export default function Services() {
           descrip={
             "The heat combined with suction helps bring blood to sore or overworked areas, speeding up healing and keeping the body moving more freely."
           }
-          img={temporaryImg}
+          img="/images/sports-injury.jpg"
           benefits={sportsInjuries}
         />
         <RealService
           title={"Full Body Massage"}
-          descrip={"TAbumama didnt tell me much im sure he will later"}
-          img={temporaryImg}
+          descrip={
+            "Relax and undwind as I massage your pains and aches away. A full body massage that will leave you unwinded and refreshed."
+          }
+          img="/images/full-body.jpg"
           benefits={fullBodyMassage}
         />
       </section>
-      <div className={styles.btnContainer}>
-        <button className="btn-4">Book A Service</button>
-      </div>
+      <Link className="good-button-link" href="/contact">
+        <div className={styles.btnContainer}>
+          <button className="btn-4">Book A Service</button>
+        </div>
+      </Link>
     </>
   );
 }
