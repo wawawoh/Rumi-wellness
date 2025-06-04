@@ -2,6 +2,16 @@ import Link from "next/link";
 import styles from "./contact.module.css";
 import Image from "next/image";
 import serviceStyles from "../services/service.module.css";
+export const metadata = {
+  title: "Contact",
+  keywords: [
+    "whastapp",
+    "massage therapy",
+    "North London",
+    "Dry Cupping",
+    "Kingsbury healing",
+  ],
+};
 export default function Contact() {
   return (
     <>

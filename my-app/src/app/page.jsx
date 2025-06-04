@@ -3,6 +3,16 @@ import styles from "./page.module.css";
 import ServiceCard from "./components/serviceCard";
 import homeStyles from "./home.module.css";
 import Link from "next/link";
+export const metadata = {
+  title: "HomePage",
+  keywords: [
+    "cupping therapy",
+    "massage therapy",
+    "North London",
+    "myofascial decompression",
+    "Kingsbury healing",
+  ],
+};
 
 export default function Home() {
   return (

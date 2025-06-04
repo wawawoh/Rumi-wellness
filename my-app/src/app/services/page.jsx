@@ -1,6 +1,16 @@
 import RealService from "../components/realService";
 import styles from "./service.module.css";
 import Link from "next/link";
+export const metadata = {
+  title: "Services",
+  keywords: [
+    "Wet Cupping",
+    "massage therapy",
+    "North London",
+    "Dry Cupping",
+    "Kingsbury healing",
+  ],
+};
 
 export default function Services() {
   const DryCupping = [
