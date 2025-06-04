@@ -24,6 +24,7 @@
 .container {
     padding: 1rem;
     margin-bottom: 5%;
+    transition: height 500ms;
 }
 .btnContainer {
     /* padding: 0 2%; */

@@ -184,9 +184,21 @@ h2 {
   color: #59765f;
 }
 
-
+button, a {
+   cursor: pointer;
+}
 @media screen and (min-width:1000px) {
         section {
           padding:  2% 10%;
         }
 }
+@media screen and (min-width:700px) {
+        li {
+          text-align: start;
+          
+        }
+        ul {
+          padding-left: 25%;
+        }
+}
+

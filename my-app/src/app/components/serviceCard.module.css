@@ -11,6 +11,7 @@
     border-bottom: #8e9f69 solid 5px;
     p {
         text-align: left;
+        text-transform: capitalize;
     }
     
 }

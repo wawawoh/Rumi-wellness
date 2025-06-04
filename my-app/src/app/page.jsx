@@ -22,27 +22,26 @@ export default function Home() {
       <section className="what-is-cupping">
         <h2>What is Cupping</h2>
         <p>
-          Cupping, or Hijama, is an ancient healing method used to relieve pain,
-          boost circulation, and support the body’s natural detox processes. By
-          creating suction on the skin using special cups, this therapy helps
-          reduce inflammation, loosen tight muscles, and promote relaxation.
-          Many describe it as a form of deep-tissue massage with added
-          therapeutic benefits.
+          Cupping Therapy (Hijama) is an ancient healing practice known for
+          relieving pain, improving circulation, and supporting the body’s
+          natural detoxification process. By applying gentle suction to the skin
+          using specialised cups, this therapy helps reduce inflammation,
+          release muscle tension, and encourage deep relaxation.
         </p>
       </section>
       <section>
         <h2>Benefits of Cupping & Myofascial Decompression</h2>
         <ul>
-          <li>Eases muscle pain and stiffness</li>
-          <li>Improves circulation and oxygen flow</li>
-          <li>Reduces stress and promotes relaxation</li>
-          <li>Enhances skin tone and texture</li>
-          <li>Supports healing and recovery through tissue repair</li>
+          <li>Relieves muscle tension, pain, and stiffness</li>
+          <li>Boosts blood circulation and oxygen delivery</li>
+          <li>Reduces stress and encourages deep relaxation</li>
+          <li>Improves skin tone, texture, and elasticity</li>
+          <li>Accelerates healing by supporting tissue repair</li>
         </ul>
       </section>
 
       <section className={homeStyles.serviceCards}>
-        <h2>We do...</h2>
+        <h2>We Offer</h2>
         <ServiceCard
           title={"Wet cupping"}
           descrip={"blood letting"}
@@ -73,27 +72,29 @@ export default function Home() {
         <div className={homeStyles.ac}>
           <h2>Meet Abubakar</h2>
           <p>
-            Hi, I’m the practitioner behind Rumi’s Wellness Clinic — where
-            healing isn’t just a treatment, but a whole experience. I offer
-            personalized cupping and massage therapy for men, either at my
+            {" "}
+            Hi, I’m the practitioner behind Rumi’s Wellness Clinic, where
+            healing is more than just a treatment. It’s a complete experience. I
+            offer personalised cupping and massage therapy for men, either in my
             peaceful space in Kingsbury or in the comfort of your home.
           </p>
 
+          <p>I’m certified by ICAHT and registered with the GRCC UK.</p>
+
           <p>
-            Certified by ICAHT and registered with the GRCC UK, my approach is
-            rooted in holistic care and performance therapy.
+            At Rumi’s, the focus isn’t just on easing pain or releasing tension,
+            it’s about creating a space where you can unplug, reset, and
+            reconnect. The atmosphere is designed to help you slow down, breathe
+            deeply, and find stillness. “The quieter you become, the more you
+            can hear.” – Ram Dass
           </p>
 
           <p>
-            At Rumi’s, the focus is not just on relieving pain or tension, it’s
-            about creating a space where you can unplug, reset, and reconnect.
-            The atmosphere is designed to help you slow down and breathe deeply.
+            Whether you're dealing with pain, carrying an injury, or just need a
+            moment away from stress, this is your time to relax, revive, and
+            recharge.
           </p>
-          <p>
-            Whether you're looking to ease muscle soreness, boost circulation,
-            or simply take a mindful pause, this is your time to relax, revive,
-            and recharge.
-          </p>
+
           <p>Welcome to Rumi’s — where ancient wisdom meets modern healing.</p>
         </div>
       </section>

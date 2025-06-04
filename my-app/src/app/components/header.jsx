@@ -13,6 +13,7 @@ function Header() {
         <h2>Rumi's Wellness</h2>
 
         <Image
+          style={{ cursor: "pointer" }}
           onClick={() => setShowNav(true)}
           src="images/burger-menu-right-svgrepo-com.svg"
           alt="BURGER"

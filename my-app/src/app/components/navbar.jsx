@@ -9,6 +9,7 @@ function Navbar({ showNav, setShowNav }) {
       }`}
     >
       <Image
+        style={{ cursor: "pointer" }}
         onClick={() => setShowNav(false)}
         src="/images/cross-svgrepo-com (1).svg"
         alt="cross"

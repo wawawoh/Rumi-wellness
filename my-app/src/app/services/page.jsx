@@ -7,6 +7,8 @@ export default function Services() {
     "Headache Relief",
     "Plantar Fasciitis Relief",
     "Boosting Immunity & Detox",
+    "Reduce tension",
+    "Reduce Inflammation",
   ];
   const temporaryImg = "/images/dry-cupping.jpg";
 
@@ -35,7 +37,7 @@ export default function Services() {
   return (
     <>
       <section className={styles.hero}>
-        <h1>My services</h1>
+        <h1>Services I offer</h1>
       </section>
       <section className="quote">
         <blockquote>
@@ -45,9 +47,9 @@ export default function Services() {
       </section>
       <section className={styles.container}>
         <RealService
-          title={"Wet Cupping"}
+          title={"Wet Cupping (Hijama)"}
           descrip={
-            "Wet cupping, or Hijama, gently removes stagnant blood and toxins from the body. It’s often used to ease pain, clear inflammation, and support natural healing."
+            "Wet cupping, also known as Hijama, involves making small, superficial incisions on the skin to draw out stagnated blood and toxins"
           }
           img="/images/wet-cupping.jpeg"
           benefits={wetCupping}
@@ -56,7 +58,7 @@ export default function Services() {
         <RealService
           title={"Dry Cupping"}
           descrip={
-            "Dry cupping is also another ancient medicinal practice, which our practitioners have several years’ experience in. Unlike Wet Cupping, Dry Cupping does not involve drawing out toxic and stagnated blood through incisions."
+            "Dry cupping is an ancient healing practice I’ve been trained in. Unlike wet cupping, it doesn’t involve any incisions. Instead, suction is applied to the skin using special cups to help relieve symptons"
           }
           img="/images/dry-cupping.jpg"
           benefits={DryCupping}
@@ -71,17 +73,15 @@ export default function Services() {
           benefits={fireCupping}
         />
         <RealService
-          title={"Sports Injuries"}
-          descrip={
-            "The heat combined with suction helps bring blood to sore or overworked areas, speeding up healing and keeping the body moving more freely."
-          }
+          title={"Cupping for Sports Recovery & Gym Performance"}
+          descrip={`From elite athletes to everyday gym-goers, cupping is widely used to support recovery, reduce muscle fatigue, and improve performance. Sports professionals like Cristiano Ronaldo, David Beckham, and Andy Murray have turned to it for its natural ability to ease tension and promote healing. Cupping works by improving circulation, reducing inflammation, and relieving tightness in overworked muscles, making it useful after intense workouts, heavy lifting, or injury. It also supports better mobility and faster recovery without relying on medication. Whether you’re dealing with post-training soreness or simply looking to stay injury-free and moving well, cupping can be a valuable part of your routine.`}
           img="/images/sports-injury.jpg"
           benefits={sportsInjuries}
         />
         <RealService
-          title={"Full Body Massage"}
+          title={"Massage Therapy"}
           descrip={
-            "Relax and undwind as I massage your pains and aches away. A full body massage that will leave you unwinded and refreshed."
+            "Whether you need a deep tissue release, a half-body focus, or a full-body reset, massage is a powerful way to let go of tension and reconnect with your body. It helps ease aches, loosen tight muscles, and leave you feeling lighter, calmer, and more at ease."
           }
           img="/images/full-body.jpg"
           benefits={fullBodyMassage}

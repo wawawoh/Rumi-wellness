@@ -43,10 +43,12 @@ justify-content: space-between;
 }
 .readMore.active {
     height: fit-content;
+    transition: height 600ms;
 }
 
 .readMore.inactive {
     height: 0;
+    transition: height 600ms;
 }
 @media screen and (min-width:1000px) {
     .moduleCard {
