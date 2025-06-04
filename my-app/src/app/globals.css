@@ -202,3 +202,14 @@ button, a {
         }
 }
 
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeInAnimation 1.5s forwards ease-in;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}

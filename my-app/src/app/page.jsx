@@ -17,7 +17,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <div className={homeStyles.hero}>
+      <div className={`${homeStyles.hero} fadeIn`}>
         <h1>Rumi&#39;s Wellness</h1>
         <p>
           Relax deeply. <br /> Revive Fully. <br /> Recharge completely.
