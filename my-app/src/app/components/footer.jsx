@@ -7,7 +7,7 @@ function Footer() {
     <section className={styles.footer}>
       <Image src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
       <Link href="/">Home</Link>
-      <Link href="/services">Servies</Link>
+      <Link href="/services">Services</Link>
       <Link href="/contact">Contact</Link>
       <h5>Follow me! </h5>
 

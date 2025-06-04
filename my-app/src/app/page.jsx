@@ -94,8 +94,8 @@ export default function Home() {
           <p>
             At Rumi’s, the focus isn’t just on easing pain or releasing tension,
             it’s about creating a space where you can unplug, reset, and
-            reconnect. The atmosphere is designed to help you slow down, breathe
-            deeply, and find stillness. “The quieter you become, the more you
+            reconnect. The atmosphere is designed to help you slow down and
+            breathe deeply. <br /> <br /> “The quieter you become, the more you
             can hear.” – Ram Dass
           </p>
 

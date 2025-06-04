@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <>
       <section className={serviceStyles.herotwo}>
-        <h1>Contact me </h1>
+        <h1>Get in touch</h1>
       </section>
       <section className="quote">
         <blockquote>
@@ -36,7 +36,7 @@ export default function Contact() {
             />
           </div>
           <Link className="good-button-link" href="https://wa.me/447939022878">
-            <button className="btn-4">Send me a message</button>
+            <button className="btn-4">Message Me on WhatsApp</button>
           </Link>
         </section>
         <section className={styles.card}>
@@ -50,7 +50,7 @@ export default function Contact() {
             />
           </div>
           <Link className="good-button-link" href="tel:+447939022878">
-            <button className="btn-4">Phone me</button>
+            <button className="btn-4">Give Me a Call</button>
           </Link>
         </section>
       </section>

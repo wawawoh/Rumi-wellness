@@ -14,35 +14,38 @@ export const metadata = {
 
 export default function Services() {
   const DryCupping = [
-    "Headache Relief",
-    "Plantar Fasciitis Relief",
-    "Boosting Immunity & Detox",
-    "Reduce tension",
-    "Reduce Inflammation",
+    "Headache & Migraine Relief",
+    "Plantar Fasciitis Support",
+    "Immune Boost & Detox",
+    "Muscle Tension Release",
+    "Improved Circulation",
   ];
   const temporaryImg = "/images/dry-cupping.jpg";
 
   const wetCupping = [
-    "Stress and anxiety relief",
-    "Inflammation support",
-    "Injury support",
-    "Sports recovery",
-    "Lower back pain relief",
+    "Stress & Anxiety Relief",
+    "Detoxification & Immune Boost",
+    "Chronic Pain Relief",
+    "Inflammation Reduction",
+    "Lower Back Pain Relief",
+    "Mental & Spiritual Clarity",
   ];
   const fireCupping = ["Pain Relief & Circulation", "Cleansing & Detox"];
   const sportsInjuries = [
-    "Pain Relief & Circulation",
-    "Cleansing & Detox",
-    "Loosen tight muscles",
-    "Boost recovery after workouts or injuries",
-    "Reduce the chance of future strain",
+    "Relieves post-workout soreness and tightness",
+    "Improves blood flow to tired or overworked muscles",
+    "Aids recovery from strains, sprains, and minor injuries",
+    "Supports shoulder, neck, and lower back release",
+    "Helps prevent injury by keeping muscles flexible",
+    "Enhances mobility and physical performance",
   ];
   const fullBodyMassage = [
-    "better sleep",
-    "muscle relief",
-    "less stiffness",
-    "mental clarity",
-    "easier movement",
+    "Relieves muscle tension and stiffness",
+    "Improves circulation and movement",
+    "Promotes better sleep and relaxation",
+    "Reduces stress and anxiety levels",
+    "Supports recovery from physical activity or injury",
+    "Helps clear the mind and improve focus",
   ];
   return (
     <>
@@ -59,7 +62,7 @@ export default function Services() {
         <RealService
           title={"Wet Cupping (Hijama)"}
           descrip={
-            "Wet cupping, also known as Hijama, involves making small, superficial incisions on the skin to draw out stagnated blood and toxins"
+            "Wet cupping, also known as Hijama, involves making small, superficial incisions on the skin to help release stagnated blood and toxins from the body."
           }
           img="/images/wet-cupping.jpeg"
           benefits={wetCupping}
@@ -83,7 +86,7 @@ export default function Services() {
           benefits={fireCupping}
         />
         <RealService
-          title={"Cupping for Sports Recovery & Gym Performance"}
+          title={"Sports & Gym Recovery"}
           descrip={`From elite athletes to everyday gym-goers, cupping is widely used to support recovery, reduce muscle fatigue, and improve performance. Sports professionals like Cristiano Ronaldo, David Beckham, and Andy Murray have turned to it for its natural ability to ease tension and promote healing. Cupping works by improving circulation, reducing inflammation, and relieving tightness in overworked muscles, making it useful after intense workouts, heavy lifting, or injury. It also supports better mobility and faster recovery without relying on medication. Whether you’re dealing with post-training soreness or simply looking to stay injury-free and moving well, cupping can be a valuable part of your routine.`}
           img="/images/sports-injury.jpg"
           benefits={sportsInjuries}

@@ -18,7 +18,7 @@ function RealService({ title, descrip, img, benefits }) {
       <h3>{title}</h3>
       <p>{descrip}</p>
       <button onClick={() => setActive((prev) => !prev)}>
-        {active ? "hide benefits" : "show benefits"}
+        {active ? "Hide Benefits" : "View Benefits"}
       </button>
       <section
         className={`${styles.readMore} ${
