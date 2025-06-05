@@ -10,10 +10,10 @@ function Header() {
   return (
     <>
       <div className={styles.container}>
-        <Image src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
+        <img src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
         <h2>Rumi's Wellness</h2>
         <div className={styles.burger}>
-          <Image
+          <img
             style={{ cursor: "pointer" }}
             onClick={() => setShowNav(true)}
             src="images/burger-menu-right-svgrepo-com.svg"
