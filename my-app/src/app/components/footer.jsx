@@ -11,16 +11,18 @@ function Footer() {
       <Link href="/contact">Contact</Link>
       <h5>Follow me! </h5>
 
-      <a
+      <Link
         aria-label="link to instagram "
         href="https://www.instagram.com/rumiswellness?igsh=eDZrdzV5Y2R1YWpr"
       >
-        <img
+        <Image
           className={styles.social}
           src="/images/instagram-svgrepo-com.svg"
-          alt=""
+          alt="instagram icon "
+          width={64}
+          height={64}
         />
-      </a>
+      </Link>
     </section>
   );
 }
