@@ -42,13 +42,33 @@
     opacity: 0;
     pointer-events: none;
 }
+.desktopNav {
+    display: none;
+}
 
 @media screen and (min-width:1000px) {
         .container {
             height: 4rem;
             img {
-                max-width: 5%;
+                            max-height: 100%;
+
                
             }
+        }
+        .burger {
+            display: none;
+        }
+        .desktopNav {
+
+            display: flex;
+            justify-content: space-between;
+            gap: 4rem;
+            a {
+                text-decoration: none;
+            
+        color: #153A37;
+        font-size: 1em;
+            }
+            
         }
 }

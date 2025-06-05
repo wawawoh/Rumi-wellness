@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Navbar from "./navbar";
 import styles from "./header.module.css";
+import Link from "next/link";
 
 function Header() {
   const [showNav, setShowNav] = useState(false);
@@ -11,15 +12,21 @@ function Header() {
       <div className={styles.container}>
         <Image src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
         <h2>Rumi's Wellness</h2>
-
-        <Image
-          style={{ cursor: "pointer" }}
-          onClick={() => setShowNav(true)}
-          src="images/burger-menu-right-svgrepo-com.svg"
-          alt="BURGER"
-          width={64}
-          height={64}
-        />
+        <div className={styles.burger}>
+          <Image
+            style={{ cursor: "pointer" }}
+            onClick={() => setShowNav(true)}
+            src="images/burger-menu-right-svgrepo-com.svg"
+            alt="BURGER"
+            width={64}
+            height={64}
+          />
+        </div>
+        <div className={styles.desktopNav}>
+          <Link href="/">Home</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/contact">Contact</Link>
+        </div>
 
         <Navbar showNav={showNav} setShowNav={setShowNav} />
       </div>

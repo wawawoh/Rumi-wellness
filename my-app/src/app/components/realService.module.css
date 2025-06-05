@@ -7,7 +7,7 @@ gap: 1rem;
 border: rgb(78, 88, 78) solid 0.3rem;
 border-bottom: #153A37 solid 0.3rem;
 height: fit-content;
-
+align-items: center;
 
 border-radius: 1rem;
 padding: 2rem;
@@ -31,6 +31,7 @@ button:active {
             aspect-ratio: 2 / 1;
             object-fit: cover;
             object-position: center;
+            border-radius: 1.2rem;
         }
 justify-content: space-between;
 }

@@ -67,7 +67,7 @@ text-align: center;
 display: flex;
 flex-direction: column;
 gap: 1rem;
-p, button, h2, ul, li, h1 {
+p, button, h2, ul, li, h1, a {
   font-family: Ancizar Sans;
 
 }
@@ -191,7 +191,7 @@ h1, h2 {
   text-transform: capitalize;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 @media screen and (min-width:1000px) {
         section {
