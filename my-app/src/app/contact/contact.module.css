@@ -18,11 +18,15 @@
     h2 {
         text-decoration: none;
     }
+    button {
+        text-transform: none;
+    }
 }
 .contactOptions {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    
 }
 
 @media screen and (min-width:1000px) {
