@@ -26,9 +26,7 @@
     margin-bottom: 5%;
     transition: height 500ms;
 }
-.btnContainer {
-    /* padding: 0 2%; */
-}
+
 
 @media screen and (min-width:1000px) {
         .container {
