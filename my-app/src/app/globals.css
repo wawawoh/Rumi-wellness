@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 :root {
   --background: #ffffff;
   
@@ -189,6 +189,8 @@ button, a {
 }
 h1, h2 {
   text-transform: capitalize;
+  font-family: "Crimson Text", serif !important;
+
 }
 h1 {
   font-size: 3rem;
