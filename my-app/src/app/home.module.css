@@ -28,9 +28,12 @@
         border-radius: 3rem;
         border: white solid 1px;
         background: rgba(255, 255, 255, 0.4);
-        padding: 3% 3%;
+        padding:5% 1rem;
+        font-size: 1rem;
+        color: black;
+       
+        /* width: rem; */
         align-self: center;
-        width: 25rem;
         /* color: white; */
     }
     button:hover {
@@ -67,12 +70,13 @@
           gap: 3rem;
         }
         .hero {
-          p {
+          h1 {
           margin-bottom: 10vh;
         }
         button {
           align-self: flex-start;
           padding: 1rem 2rem;
+          font-size: 1.9rem;
         }
 
         }

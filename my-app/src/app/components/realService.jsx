@@ -6,6 +6,7 @@ function RealService({ title, descrip, img, benefits }) {
   const listItems = benefits.map((benefit, index) => (
     <li key={index}>{benefit}</li>
   ));
+
   const [active, setActive] = useState(false);
   return (
     <div className={styles.moduleCard}>

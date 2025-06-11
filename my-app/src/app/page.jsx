@@ -18,10 +18,9 @@ export default function Home() {
   return (
     <>
       <div className={`${homeStyles.hero} fadeIn`}>
-        <h1>Rumi&#39;s Wellness</h1>
-        <p>
+        <h1>
           Relax deeply. <br /> Revive Fully. <br /> Recharge completely.
-        </p>
+        </h1>
         <Link className="button-link" href="/contact">
           <button>Let's book an appointment</button>
         </Link>
@@ -96,7 +95,7 @@ export default function Home() {
             it’s about creating a space where you can unplug, reset, and
             reconnect. The atmosphere is designed to help you slow down and
             breathe deeply. <br /> <br /> “The quieter you become, the more you
-            can hear.” – Ram Dass
+            can hear.” ~ Ram Dass
           </p>
 
           <p>

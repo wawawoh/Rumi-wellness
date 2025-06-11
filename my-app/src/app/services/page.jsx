@@ -47,6 +47,7 @@ export default function Services() {
     "Supports recovery from physical activity or injury",
     "Helps clear the mind and improve focus",
   ];
+
   return (
     <>
       <section className={styles.hero}>
