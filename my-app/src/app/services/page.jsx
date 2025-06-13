@@ -74,7 +74,7 @@ export default function Services() {
           descrip={
             "Dry cupping is an ancient healing practice I’ve been trained in. Unlike wet cupping, it doesn’t involve any incisions. Instead, suction is applied to the skin using special cups to help relieve symptons"
           }
-          img="/images/dry-cupping.jpg"
+          img="/images/dry-cup.jpg"
           benefits={DryCupping}
         />
 
@@ -83,13 +83,13 @@ export default function Services() {
           descrip={
             "Fire cupping is a traditional therapy that uses heat and suction to support the body’s natural healing. A flame is briefly placed inside a glass cup to create a vacuum before the cup is applied to the skin. The heat from the cup transfers into the body, helping to release stiffness in the muscles and fascia. This gentle suction lifts the skin like a “reverse massage” to ease tension, improve circulation, and leave you feeling more relaxed and loosened."
           }
-          img="/images/fire-cup.jpeg"
+          img="/images/fire-cup (2).jpeg"
           benefits={fireCupping}
         />
         <RealService
           title={"Sports & Gym Recovery"}
           descrip={`From elite athletes to everyday gym-goers, cupping is widely used to support recovery, reduce muscle fatigue, and improve performance. Sports professionals like Cristiano Ronaldo, David Beckham, and Andy Murray have turned to it for its natural ability to ease tension and promote healing. Cupping works by improving circulation, reducing inflammation, and relieving tightness in overworked muscles, making it useful after intense workouts, heavy lifting, or injury. It also supports better mobility and faster recovery without relying on medication. Whether you’re dealing with post-training soreness or simply looking to stay injury-free and moving well, cupping can be a valuable part of your routine.`}
-          img="/images/sports-injury.jpg"
+          img="/images/sport.jpeg"
           benefits={sportsInjuries}
         />
         <RealService
@@ -97,7 +97,7 @@ export default function Services() {
           descrip={
             "Whether you need a deep tissue release, a half-body focus, or a full-body reset, massage is a powerful way to let go of tension and reconnect with your body. It helps ease aches, loosen tight muscles, and leave you feeling lighter, calmer, and more at ease."
           }
-          img="/images/full-body.jpg"
+          img="/images/full-body (2).jpg"
           benefits={fullBodyMassage}
         />
       </section>

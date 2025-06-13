@@ -24,6 +24,10 @@
         margin-bottom: 20vh;
         
     }
+    h1 {
+       margin-bottom: 40%;
+    }
+   
     button {
         border-radius: 3rem;
         border: white solid 1px;
