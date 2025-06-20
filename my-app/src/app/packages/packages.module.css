@@ -12,10 +12,7 @@
     a {
         text-decoration: none;
     }
-    p {
-        text-decoration: none;
-        border: none;
-    }
+   
 }
 .whatsapp:active {
     border: none;
