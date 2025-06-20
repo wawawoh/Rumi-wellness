@@ -181,7 +181,9 @@ h2 {
 .quote {
   font-style: italic;
   font-weight: bold;
-  color: #59765f;
+  color: antiquewhite;
+  margin-top: -1rem;
+  background-color: #59765f;
 }
 
 button, a {

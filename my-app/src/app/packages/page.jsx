@@ -19,6 +19,7 @@ export default function Packages() {
         </blockquote>
       </section>
       <section className="flavour">
+        <h2>Our treatments</h2>
         <p>
           Choose from a range of treatments designed to support your physical,
           spiritual, and therapeutic well-being. All sessions include a
@@ -26,17 +27,14 @@ export default function Packages() {
         </p>
       </section>
       <section className={styles.homeVisits}>
-        <h2>Mobile / Home Visit Option – Additional £20</h2>
+        <h2>
+          Mobile / Home Visit <br /> Additional £20
+        </h2>
         <p>
           If you'd like to receive treatment in the comfort of your own home
           (within the local area), we offer mobile services for an added fee.
         </p>
-        <Link className="good-button-link" href="/services">
-          <button className={`btn-4 ${styles.whatsapp}`}>
-            <p>Check if my area is covered</p>
-            <img src="/images/whatsapp-svgrepo-com.svg" alt="" />
-          </button>
-        </Link>
+
         <button className={styles.whatsapp}>
           <span>Check if your area is covered</span>
           <img src="/images/whatsapp-svgrepo-com.svg" alt="" />
