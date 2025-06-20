@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 16vh 3vh;
-    margin-top: 3rem;
+    margin-top: -1rem;
 }
 
 .herotwo {
@@ -19,7 +19,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 16vh 3vh;
-    margin-top: 3rem;
+    margin-top: -1rem;
+}
+.herothree {
+    background-image: url(/images/hero-2\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16vh 3vh;
+    margin-top: -1rem;
 }
 .container {
     padding: 1rem;

@@ -51,7 +51,7 @@ export default function Services() {
   return (
     <>
       <section className={styles.hero}>
-        <h1>Services I offer</h1>
+        <h1>Treatments</h1>
       </section>
       <section className="quote">
         <blockquote>

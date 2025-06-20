@@ -18,7 +18,16 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <Header />
+        <header
+          style={{
+            position: "sticky",
+            top: 0,
+            zIndex: 1000,
+            // backgroundColor: "#fff", // or any color matching your design/
+          }}
+        >
+          <Header />
+        </header>
         {children}
         <Footer />
       </body>

@@ -1,0 +1,19 @@
+.homeVisits {
+    background-color: #59765f;
+    color: antiquewhite;
+    
+}
+.whatsapp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+    }
+    p {
+        text-decoration: none;
+        border: none;
+    }
+}

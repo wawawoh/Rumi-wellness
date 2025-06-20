@@ -24,8 +24,9 @@ function Header() {
         </div>
         <div className={styles.desktopNav}>
           <Link href="/">Home</Link>
-          <Link href="/services">Services</Link>
+          <Link href="/services">Treatments</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/packages">Packages</Link>
         </div>
 
         <Navbar showNav={showNav} setShowNav={setShowNav} />
