@@ -126,6 +126,71 @@ export default function Packages() {
       </section>
       <section className={styles.packagesWrapper}>
         <RealPackage
+          name={"Basic Sunnah Cupping"}
+          price={"£45"}
+          duration={"25–30 minutes"}
+          includes={basicSunnahCuppingHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Basic%20Sunnah%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+        <RealPackage
+          name={"Full Body Wet Cupping"}
+          price={"£60"}
+          duration={"40–45 minutes"}
+          includes={fullBodyWetCuppingHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Wet%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+        <RealPackage
+          name={"Half Body Dry Cupping"}
+          price={"£40"}
+          duration={"20–25 minutes"}
+          includes={halfBodyDryCuppingHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Dry%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+
+        <RealPackage
+          name={"Full Body Dry Cupping"}
+          price={"£50"}
+          duration={"35–40 minutes"}
+          includes={fullBodyDryCuppingHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Dry%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+
+        <RealPackage
+          name={"Half Body Fire Cupping"}
+          price={"£40"}
+          duration={"20–25 minutes"}
+          includes={halfBodyFireCuppingHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Fire%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+        <RealPackage
+          name={"Full Body Fire Cupping"}
+          price={"£50"}
+          duration={"35–40 minutes"}
+          includes={fullBodyFireCuppingHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Fire%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+        <RealPackage
+          name={"Half Body Massage"}
+          price={"£35"}
+          duration={"30 minutes"}
+          includes={halfBodyMassageHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+        <RealPackage
           name={"Deep Tissue Full Body Massage"}
           price={"£65"}
           duration={"60 minutes"}
@@ -146,72 +211,12 @@ export default function Packages() {
         />
 
         <RealPackage
-          name={"Half Body Massage"}
-          price={"£35"}
-          duration={"30 minutes"}
-          includes={halfBodyMassageHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Full Body Fire Cupping"}
+          name={"Gym Performance Support"}
           price={"£50"}
-          duration={"35–40 minutes"}
-          includes={fullBodyFireCuppingHas}
+          duration={"45–60 minutes"}
+          includes={gymPerformanceSupportHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Fire%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Half Body Fire Cupping"}
-          price={"£40"}
-          duration={"20–25 minutes"}
-          includes={halfBodyFireCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Fire%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Full Body Dry Cupping"}
-          price={"£50"}
-          duration={"35–40 minutes"}
-          includes={fullBodyDryCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Dry%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Half Body Dry Cupping"}
-          price={"£40"}
-          duration={"20–25 minutes"}
-          includes={halfBodyDryCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Dry%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Basic Sunnah Cupping"}
-          price={"£45"}
-          duration={"25–30 minutes"}
-          includes={basicSunnahCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Basic%20Sunnah%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Full Body Wet Cupping"}
-          price={"£60"}
-          duration={"40–45 minutes"}
-          includes={fullBodyWetCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Wet%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Gym%20Performance%20Support.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
@@ -222,16 +227,6 @@ export default function Packages() {
           includes={targetedInjuryRecoveryHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Targeted%20Injury%20Recovery.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-
-        <RealPackage
-          name={"Gym Performance Support"}
-          price={"£50"}
-          duration={"45–60 minutes"}
-          includes={gymPerformanceSupportHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Gym%20Performance%20Support.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
@@ -254,7 +249,6 @@ export default function Packages() {
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Deluxe%20Wellness%20Reset.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
-
         <RealPackage
           name={"Elite Athlete Recovery"}
           price={"£130"}
