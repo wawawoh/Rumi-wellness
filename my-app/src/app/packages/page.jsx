@@ -190,15 +190,6 @@ export default function Packages() {
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
-        <RealPackage
-          name={"Deep Tissue Full Body Massage"}
-          price={"£65"}
-          duration={"60 minutes"}
-          includes={deepTissueFullBodyMassageHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Deep%20Tissue%20Full%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
 
         <RealPackage
           name={"Full Body Massage"}
@@ -207,6 +198,16 @@ export default function Packages() {
           includes={fullBodyMassageHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
+          }
+        />
+
+        <RealPackage
+          name={"Deep Tissue Full Body Massage"}
+          price={"£65"}
+          duration={"60 minutes"}
+          includes={deepTissueFullBodyMassageHas}
+          link={
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Deep%20Tissue%20Full%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
