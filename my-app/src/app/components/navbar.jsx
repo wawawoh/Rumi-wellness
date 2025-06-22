@@ -19,8 +19,8 @@ function Navbar({ showNav, setShowNav }) {
       <Link onClick={() => setShowNav(false)} href="/">
         Home
       </Link>
-      <Link onClick={() => setShowNav(false)} href="/treatments">
-        Services
+      <Link onClick={() => setShowNav(false)} href="/services">
+        Treatments
       </Link>
       <Link onClick={() => setShowNav(false)} href="/contact">
         Contact
