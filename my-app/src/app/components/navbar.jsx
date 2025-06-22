@@ -20,14 +20,15 @@ function Navbar({ showNav, setShowNav }) {
         Home
       </Link>
       <Link onClick={() => setShowNav(false)} href="/services">
-        Treatments
+          Treatments
+       
       </Link>
       <Link onClick={() => setShowNav(false)} href="/contact">
         Contact
       </Link>
-      <Link onClick={() => setShowNav(false)} href="/packages">
+      {/* <Link onClick={() => setShowNav(false)} href="/packages">
         Packages
-      </Link>
+      </Link> */}
     </div>
   );
 }

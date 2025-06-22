@@ -26,7 +26,7 @@ function Header() {
           <Link href="/">Home</Link>
           <Link href="/services">Treatments</Link>
           <Link href="/contact">Contact</Link>
-          <Link href="/packages">Packages</Link>
+          {/* <Link href="/packages">Packages</Link> */}
         </div>
 
         <Navbar showNav={showNav} setShowNav={setShowNav} />

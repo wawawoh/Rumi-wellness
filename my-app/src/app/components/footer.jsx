@@ -9,7 +9,7 @@ function Footer() {
       <Link href="/">Home</Link>
       <Link href="/services">Treatments</Link>
       <Link href="/contact">Contact</Link>
-      <Link href="/packages">Packages</Link>
+      {/* <Link href="/packages">Packages</Link> */}
       <h5>Follow me! </h5>
 
       <Link
