@@ -25,9 +25,9 @@ function Navbar({ showNav, setShowNav }) {
       <Link onClick={() => setShowNav(false)} href="/contact">
         Contact
       </Link>
-      {/* <Link onClick={() => setShowNav(false)} href="/packages">
+      <Link onClick={() => setShowNav(false)} href="/packages">
         Packages
-      </Link> */}
+      </Link>
     </div>
   );
 }
