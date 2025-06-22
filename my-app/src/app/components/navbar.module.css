@@ -1,7 +1,7 @@
 
 
 .navbar {
-   
+   /* position: fixed; */
 z-index: 103;
     flex-direction: column;
     position: absolute;
