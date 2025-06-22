@@ -1,6 +1,16 @@
 import styles from "./packages.module.css";
 import Link from "next/link";
 import RealPackage from "../components/realPackage";
+export const metadata = {
+  title: "Packages",
+  keywords: [
+    "cupping therapy",
+    "massage therapy",
+    "North London",
+    "myofascial decompression",
+    "Kingsbury healing",
+  ],
+};
 
 import homestyles from "../services/service.module.css";
 export default function Packages() {
