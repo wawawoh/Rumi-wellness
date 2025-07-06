@@ -1,7 +1,19 @@
 .homeVisits {
     background-color: #59765f;
-    color: antiquewhite;
+    color: #faead6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        color: rgb(239, 255, 239);
+    }
+
     
+}
+.homediv {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 .whatsapp {
     display: flex;

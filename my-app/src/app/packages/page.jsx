@@ -14,85 +14,92 @@ export const metadata = {
 
 import homestyles from "../services/service.module.css";
 export default function Packages() {
-  const deepTissueFullBodyMassageHas = [
-    "Deep, slow-pressure full body massage",
-    "More intense and focused treatment",
-    "Suitable for athletes or clients with chronic muscle tightness",
-  ];
-
-  const fullBodyMassageHas = [
-    "Massage covering major areas: back, shoulders, arms, and legs",
-  ];
-
-  const halfBodyMassageHas = [
-    "Focused massage on one area (e.g. back, shoulders, or legs)",
-  ];
-
-  const fullBodyFireCuppingHas = [
-    "Cupping across multiple areas (e.g. back, shoulders, thighs, calves)",
-    "Up to 18 cups",
-    "Pre-treatment massage gun therapy",
-  ];
-
-  const halfBodyFireCuppingHas = [
-    "Cupping focused on one area (e.g. back, shoulders, or legs)",
-    "Up to 10 cups",
-  ];
-
-  const fullBodyDryCuppingHas = [
-    "Consultation",
-    "Dry cupping across multiple areas",
-  ];
-
-  const halfBodyDryCuppingHas = [
-    "Consultation",
-    "Cupping focused on one area (e.g. back, shoulders, or legs)",
-  ];
-
-  const basicSunnahCuppingHas = [
-    "Consultation",
-    "Wet cupping on sunnah points (up to 12 cups)",
+  const sunnahHijamaHas = [
+    "Pre-Treatment consultation",
+    "Wet cupping on Sunnah Points. (Upper back, neck, & lower back)",
+    "Sterile - Single use equipment",
+    "Aftercare advice and guidance",
   ];
 
   const fullBodyWetCuppingHas = [
-    "Consultation",
-    "Up to 25 cups applied across the body",
-    "Pre-treatment massage gun therapy",
+    "Pre-Treatment consultation",
+    "Wet cupping across multiple key areas (typically up to 15 cups, including Sunnah Points)",
+    "Pre-Cupping industrial massage gun therapy",
+    "Sterile, single use equipment",
+    "Aftercare advice and guidance",
   ];
 
-  const targetedInjuryRecoveryHas = [
-    "Consultation and assessment",
-    "Manual therapy and hands-on treatment",
-    "Use of Graston IASTM tools",
-    "Use of industrial-grade massage gun",
+  const dryCuppingTherapyHas = [
+    "Pre-treatment consultation",
+    "Dry cupping therapy (targeted or full body)",
+    "Unlimited application of hygienic vacuum cups",
+    "Aftercare advice and guidance",
   ];
 
-  const gymPerformanceSupportHas = [
+  const fireCuppingTherapyHas = [
+    "Pre-treatment consultation",
+    "Fire cupping therapy (gliding or static) across multiple key areas (e.g., back, shoulders, thighs & calves)",
+    "Use of fire safe glass or bamboo cups",
+    "Aftercare advice and guidance",
+    "Recommended for relieving muscular tension, stiffness, and tightness.",
+  ];
+
+  const halfBodyMassageHas = [
+    "Focused massage on upper body or lower body",
+    "Olive oil application",
+    "Industrial massage gun therapy",
+    "Optional silicon cups movement",
+  ];
+
+  const fullBodyMassageHas = [
+    "Massage covering major areas (back, shoulders, thighs & calves)",
+    "Olive oil application",
+    "Industrial massage gun therapy",
+    "Optional silicone cup movement",
+  ];
+
+  const recoveryMassageHas = [
+    "Full body massage with firmer pressure",
+    "Focus on relieving muscle tension and tightness",
+    "Olive oil application",
+    "Industrial massage gun therapy",
+    "Optional silicone cup movement",
+  ];
+
+  const performanceTherapyHas = [
     "Consultation and movement assessment",
-    "Cupping therapy",
-    "Industrial-grade massage gun therapy",
-    "Graston IASTM tools",
+    "Cupping therapy (targeted as needed)",
+    "Soft tissue release with Graston IASTM tools",
+    "Industrial massage gun therapy (if required)",
+    "Aftercare advice and guidance",
+  ];
+
+  const injuryMuscleRecoveryTherapyHas = [
+    "Consultation & assessment",
+    "Targeted cupping therapy",
+    "Soft tissue release using Graston IASTM tools",
+    "Aftercare advice and guidance",
+    "This therapy focuses on reducing inflammation, breaking down scar tissue, and supporting muscle repair",
   ];
 
   const combinationTherapyHas = [
     "Consultation",
-    "Wet cupping on sunnah points (up to 12 cups)",
-    "Targeted treatment on one area (e.g. shoulder, leg, neck)",
-    "Use of industrial massage gun and Graston tools (if required)",
+    "Wet cupping on Sunnah points (Sunnah Hijama)",
+    "Targeted therapy on one area (e.g., shoulders, lower back, or leg)",
+    "Soft tissue release using Graston IASTM tools",
+    "Aftercare advice and guidance",
+    "This therapy is designed to reduce inflammation, relieve tension, and improve circulation.",
+    "Normally £95 if booked separately. Save £30 with this combined therapy.",
   ];
 
   const deluxeWellnessResetHas = [
-    "Full body massage (60 minutes)",
-    "Wet cupping on sunnah points (up to 12 cups)",
-    "Targeted treatment on one area",
-    "Use of massage gun and Graston tools (if required)",
-  ];
-
-  const eliteAthleteRecoveryHas = [
-    "Full consultation & movement assessment",
-    "Cupping therapy (wet or dry as required)",
-    "Industrial-grade massage gun therapy",
-    "Graston IASTM tools",
+    "Full body massage (60 mins)",
+    "Wet cupping therapy (Sunnah points or targeted area based on your needs)",
+    "Targeted therapy (e.g. shoulders, lower back, or legs)",
+    "Graston IASTM tool work for soft tissue release",
+    "Aftercare advice and guidance",
+    "A restorative session combining full body relaxation and targeted cupping therapy, designed to reset the body and mind.",
+    "Normally £145 if booked separately. Save £50 with this deluxe package",
   ];
 
   return (
@@ -114,12 +121,16 @@ export default function Packages() {
         </p>
       </section>
       <section className={styles.homeVisits}>
-        <h2>
-          Mobile / Home Visit <br /> Additional £20
-        </h2>
+        <div className={styles.homediv}>
+          <img src="/images/car-svgrepo-com.svg" alt="" />
+          <h2>Mobile / Home Visit</h2>
+        </div>
+
+        <h3> Add-On Fee: From £20</h3>
         <p>
-          If you'd like to receive treatment in the comfort of your own home
-          (within the local area), we offer mobile services for an added fee.
+          If you would like to receive treatment in the comfort of your own
+          home, we offer a mobile service for an additional cost. Distance is no
+          issue - Feel free to contact us to discuss your location.
         </p>
 
         <Link className="good-button-link" href="/contact">
@@ -136,64 +147,48 @@ export default function Packages() {
       </section>
       <section className={styles.packagesWrapper}>
         <RealPackage
-          name={"Basic Sunnah Cupping"}
+          name={"Sunnah Hijama – STANDARD"}
           price={"£45"}
-          duration={"25–30 minutes"}
-          includes={basicSunnahCuppingHas}
+          duration={"30–45 minutes"}
+          includes={sunnahHijamaHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Basic%20Sunnah%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Sunnah%20Hijama%20–%20STANDARD.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
+
         <RealPackage
-          name={"Full Body Wet Cupping"}
+          name={"Full Body Wet Cupping – ADVANCED"}
           price={"£60"}
-          duration={"40–45 minutes"}
+          duration={"60 minutes"}
           includes={fullBodyWetCuppingHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Wet%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-        <RealPackage
-          name={"Half Body Dry Cupping"}
-          price={"£40"}
-          duration={"20–25 minutes"}
-          includes={halfBodyDryCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Dry%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Wet%20Cupping%20–%20ADVANCED.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
-          name={"Full Body Dry Cupping"}
+          name={"Dry Cupping Therapy"}
           price={"£50"}
-          duration={"35–40 minutes"}
-          includes={fullBodyDryCuppingHas}
+          duration={"45 minutes"}
+          includes={dryCuppingTherapyHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Dry%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Dry%20Cupping%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
-          name={"Half Body Fire Cupping"}
-          price={"£40"}
-          duration={"20–25 minutes"}
-          includes={halfBodyFireCuppingHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Half%20Body%20Fire%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-        <RealPackage
-          name={"Full Body Fire Cupping"}
+          name={"Fire Cupping Therapy"}
           price={"£50"}
-          duration={"35–40 minutes"}
-          includes={fullBodyFireCuppingHas}
+          duration={"45 minutes"}
+          includes={fireCuppingTherapyHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Fire%20Cupping.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Fire%20Cupping%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
+
         <RealPackage
           name={"Half Body Massage"}
-          price={"£35"}
+          price={"£40"}
           duration={"30 minutes"}
           includes={halfBodyMassageHas}
           link={
@@ -212,39 +207,39 @@ export default function Packages() {
         />
 
         <RealPackage
-          name={"Deep Tissue Full Body Massage"}
-          price={"£65"}
+          name={"Recovery Massage"}
+          price={"£60"}
           duration={"60 minutes"}
-          includes={deepTissueFullBodyMassageHas}
+          includes={recoveryMassageHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Deep%20Tissue%20Full%20Body%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Recovery%20Massage.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
-          name={"Gym Performance Support"}
+          name={"Performance Therapy"}
           price={"£50"}
           duration={"45–60 minutes"}
-          includes={gymPerformanceSupportHas}
+          includes={performanceTherapyHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Gym%20Performance%20Support.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Performance%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
-          name={"Targeted Injury Recovery"}
+          name={"Injury & Muscle Recovery Therapy"}
           price={"£50"}
-          duration={"30–35 minutes"}
-          includes={targetedInjuryRecoveryHas}
+          duration={"60 minutes"}
+          includes={injuryMuscleRecoveryTherapyHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Targeted%20Injury%20Recovery.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Injury%20%26%20Muscle%20Recovery%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
           name={"Combination Therapy"}
           price={"£65"}
-          duration={"40–45 minutes"}
+          duration={"60 minutes"}
           includes={combinationTherapyHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Combination%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
@@ -254,19 +249,10 @@ export default function Packages() {
         <RealPackage
           name={"Deluxe Wellness Reset"}
           price={"£95"}
-          duration={"Approx. 90–95 minutes"}
+          duration={"90–95 minutes"}
           includes={deluxeWellnessResetHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Deluxe%20Wellness%20Reset.%20Can%20you%20let%20me%20know%20your%20availability?"
-          }
-        />
-        <RealPackage
-          name={"Elite Athlete Recovery"}
-          price={"£130"}
-          duration={"60–75 minutes"}
-          includes={eliteAthleteRecoveryHas}
-          link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Elite%20Athlete%20Recovery.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
       </section>
