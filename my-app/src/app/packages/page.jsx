@@ -147,29 +147,29 @@ export default function Packages() {
       </section>
       <section className={styles.packagesWrapper}>
         <RealPackage
-          name={"Sunnah Hijama – STANDARD"}
+          name={"Sunnah Hijama                                   STANDARD"}
           price={"£45"}
-          duration={"30–45 minutes"}
+          duration={"Approx. 30 - 45 minutes"}
           includes={sunnahHijamaHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Sunnah%20Hijama%20–%20STANDARD.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Sunnah%20Hijama%20STANDARD.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
-          name={"Full Body Wet Cupping – ADVANCED"}
+          name={"Full Body - Wet Cupping ADVANCED"}
           price={"£60"}
           duration={"60 minutes"}
           includes={fullBodyWetCuppingHas}
           link={
-            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20Wet%20Cupping%20–%20ADVANCED.%20Can%20you%20let%20me%20know%20your%20availability?"
+            "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Full%20Body%20-%20Wet%20Cupping%20ADVANCED.%20Can%20you%20let%20me%20know%20your%20availability?"
           }
         />
 
         <RealPackage
           name={"Dry Cupping Therapy"}
           price={"£50"}
-          duration={"45 minutes"}
+          duration={"45 Minutes"}
           includes={dryCuppingTherapyHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Dry%20Cupping%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
@@ -219,7 +219,7 @@ export default function Packages() {
         <RealPackage
           name={"Performance Therapy"}
           price={"£50"}
-          duration={"45–60 minutes"}
+          duration={"Approx. 45 - 60 minutes"}
           includes={performanceTherapyHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Performance%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
@@ -239,7 +239,7 @@ export default function Packages() {
         <RealPackage
           name={"Combination Therapy"}
           price={"£65"}
-          duration={"60 minutes"}
+          duration={"60 mins"}
           includes={combinationTherapyHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Combination%20Therapy.%20Can%20you%20let%20me%20know%20your%20availability?"
@@ -249,7 +249,7 @@ export default function Packages() {
         <RealPackage
           name={"Deluxe Wellness Reset"}
           price={"£95"}
-          duration={"90–95 minutes"}
+          duration={"Approx. 90–95 mins"}
           includes={deluxeWellnessResetHas}
           link={
             "https://api.whatsapp.com/send?phone=447939022878&text=Hi,%20I%E2%80%99m%20interested%20in%20booking%20the%20Deluxe%20Wellness%20Reset.%20Can%20you%20let%20me%20know%20your%20availability?"
