@@ -137,7 +137,7 @@ export default function Packages() {
           <div className={styles.btnContainer}>
             <button className={`btn-4 ${styles.myButton}`}>
               <div className={styles.whatsapp}>
-                <p>Check if your area is covered</p>
+                <p>Let's talk - Message me directly</p>
                 <img src="/images/whatsapp-svgrepo-com.svg" alt="" />
               </div>
               {/* Check if your area is covered */}
@@ -147,7 +147,11 @@ export default function Packages() {
       </section>
       <section className={styles.packagesWrapper}>
         <RealPackage
-          name={"Sunnah Hijama                                   STANDARD"}
+          name={
+            <>
+              Sunnah Hijama <br /> STANDARD
+            </>
+          }
           price={"£45"}
           duration={"Approx. 30 - 45 minutes"}
           includes={sunnahHijamaHas}
@@ -157,7 +161,11 @@ export default function Packages() {
         />
 
         <RealPackage
-          name={"Full Body - Wet Cupping ADVANCED"}
+          name={
+            <>
+              Full Body - Wet Cupping <br /> ADVANCED
+            </>
+          }
           price={"£60"}
           duration={"60 minutes"}
           includes={fullBodyWetCuppingHas}
