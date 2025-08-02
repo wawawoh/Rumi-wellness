@@ -14,7 +14,7 @@
     color: white;
     
     text-align: left;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,20 +25,17 @@
         
     }
     h1 {
-       margin-bottom: 40%;
+       /* margin-bottom: 40%; */
+    }
+    a {
+      margin-top: 10vh;
+      align-self: flex-start;
     }
    
     button {
-        border-radius: 3rem;
-        border: white solid 1px;
-        background: rgba(255, 255, 255, 0.4);
-        padding:5% 1rem;
-        font-size: 1rem;
-        color: black;
-       
-        /* width: rem; */
-        align-self: center;
-        /* color: white; */
+       text-transform: none;
+       font-weight: 100;
+       opacity: 0.7;
     }
     button:hover {
       opacity: 0.8;
@@ -75,12 +72,17 @@
         }
         .hero {
           h1 {
-          margin-bottom: 10vh;
+          /* margin-bottom: 10vh; */
+           /* font-size: 1rem; */
+         
+        }
+        a {
+          align-self: self-start;
         }
         button {
           align-self: flex-start;
           padding: 1rem 2rem;
-          font-size: 1.9rem;
+          font-size: 1.4rem;
         }
 
         }

@@ -81,10 +81,11 @@ section {
     gap: 1rem;
 }
 h1 {
-  font-size: 5rem;
-  font-weight: 800;
   
-  /* font-family: var(--font-noto); */
+  font-weight: 800;
+  font-size: 1.2rem;
+  
+  font-family: var(--font-noto);
 
 }
 h2 {
@@ -194,16 +195,13 @@ h1, h2 {
   font-family: "Crimson Text", serif !important;
 
 }
-h1 {
-  font-size: 1.5rem;
-  /*  */
-}
+
 @media screen and (min-width:1000px) {
         section {
           padding:  2% 10%;
         }
         h1 {
-          font-size: 1.4rem;
+          font-size: 2rem;
         }
 }
 @media screen and (min-width:700px) {
@@ -214,9 +212,7 @@ h1 {
         ul {
           padding-left: 25%;
         }
-        h1 {
-  font-size: 4rem;
-}
+        
 }
 
 

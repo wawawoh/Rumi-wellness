@@ -22,7 +22,7 @@ export default function Home() {
           Relax deeply. <br /> Revive Fully. <br /> Recharge completely.
         </h1>
         <Link className="button-link" href="/contact">
-          <button>Let's book an appointment</button>
+          <button className="btn-4">Let's book an appointment</button>
         </Link>
       </div>
       <section className="quote">
