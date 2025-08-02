@@ -10,13 +10,13 @@ function Header() {
   return (
     <>
       <div className={styles.container}>
-        <img src="/images/rumi-logo.jpg" alt="" width={643} height={613} />
+        <img src="/images/rumi-logo.webp" alt="" width={643} height={613} />
         <h2>Rumi's Wellness</h2>
         <div className={styles.burger}>
           <img
             style={{ cursor: "pointer" }}
             onClick={() => setShowNav(true)}
-            src="images/burger-menu-right-svgrepo-com.svg"
+            src="/images/burger-menu-right-svgrepo-com.svg"
             alt="BURGER"
             width={64}
             height={64}

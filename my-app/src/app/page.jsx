@@ -73,7 +73,7 @@ export default function Home() {
 
       <section className={homeStyles.aboutMe}>
         <Image
-          src="/images/abu.jpeg"
+          src="/images/abu.webp"
           alt="Abumama face"
           width={500}
           height={300}

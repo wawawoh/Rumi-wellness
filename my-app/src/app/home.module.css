@@ -7,7 +7,7 @@
 /* HERO */
 .hero {
     text-transform: capitalize;
-    background-image: url(/images/mobileHero.jpeg);
+    background-image: url(/images/mobileHero.webp);
     background-position: center;
     background-size: cover;
     padding: 25vh 9vw;
