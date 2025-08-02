@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import { useState } from "react";
 import Navbar from "./navbar";
 import styles from "./header.module.css";
@@ -10,7 +10,13 @@ function Header() {
   return (
     <>
       <div className={styles.container}>
-        <img src="/images/rumi-logo.webp" alt="" width={643} height={613} />
+        <img
+          src="/images/rumi-logo.webp"
+          alt=""
+          width={643}
+          height={613}
+          decoding="async"
+        />
         <h2>Rumi's Wellness</h2>
         <div className={styles.burger}>
           <img
@@ -20,6 +26,7 @@ function Header() {
             alt="BURGER"
             width={64}
             height={64}
+            decoding="async"
           />
         </div>
         <div className={styles.desktopNav}>
