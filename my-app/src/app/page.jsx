@@ -95,7 +95,7 @@ export default function Home() {
             it’s about creating a space where you can unplug, reset, and
             reconnect. The atmosphere is designed to help you slow down and
             breathe deeply. <br /> <br /> “The quieter you become, the more you
-            can hear.” ~ Ram Dass
+            can hear.”
           </p>
 
           <p>

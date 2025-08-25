@@ -20,8 +20,7 @@ export default function Contact() {
       </section>
       <section className="quote">
         <blockquote>
-          "The most precious gift we can offer anyone is our attention." ~ Thich
-          Nhat Hanh
+          "The most precious gift we can offer anyone is our attention."
         </blockquote>
       </section>
       <section className={styles.contactOptions}>

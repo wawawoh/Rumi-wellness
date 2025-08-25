@@ -56,7 +56,7 @@ export default function Services() {
       <section className="quote">
         <blockquote>
           “Your body is precious, it is your vehicle for awakening. Treat it
-          with care ~ Budda”
+          with care”
         </blockquote>
       </section>
       <section className={styles.container}>
