@@ -4,12 +4,13 @@ function Temp() {
       style={{
         position: "sticky",
         top: 80,
-        zIndex: 1000000,
+        zIndex: 10000,
 
         backgroundColor: "#fff",
       }}
     >
-      This site is currently undergoing maintanence, please bear with us
+      We're currently updating our website, for latest services and pricing
+      please contact us directly
     </div>
   );
 }

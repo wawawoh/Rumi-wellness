@@ -2,7 +2,7 @@
 
 .navbar {
    /* position: fixed; */
-z-index: 103;
+z-index: 100000000;
     flex-direction: column;
     position: absolute;
     right: 0;
@@ -27,6 +27,7 @@ z-index: 103;
 }
 
 .active {
+    z-index: 100000000;
     transform: translate(0);
     /* transition: ; */
     transition: transform 700ms ease-in;
