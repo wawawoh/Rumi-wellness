@@ -9,34 +9,36 @@ function Header() {
   const [showNav, setShowNav] = useState(false);
   return (
     <>
-      <div className={styles.container}>
-        <img
-          src="/images/rumi-logo.webp"
-          alt=""
-          width={643}
-          height={613}
-          decoding="async"
-        />
-        <h2>Rumi's Wellness</h2>
-        <div className={styles.burger}>
+      <div className={styles.tempoop}>
+        <div className={styles.container}>
           <img
-            style={{ cursor: "pointer" }}
-            onClick={() => setShowNav(true)}
-            src="/images/burger-menu-right-svgrepo-com.svg"
-            alt="BURGER"
-            width={64}
-            height={64}
+            src="/images/rumi-logo.webp"
+            alt=""
+            width={643}
+            height={613}
             decoding="async"
           />
-        </div>
-        <div className={styles.desktopNav}>
-          <Link href="/">Home</Link>
-          <Link href="/services">Treatments</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/packages">Packages</Link>
-        </div>
+          <h2>Rumi's Wellness</h2>
+          <div className={styles.burger}>
+            <img
+              style={{ cursor: "pointer" }}
+              onClick={() => setShowNav(true)}
+              src="/images/burger-menu-right-svgrepo-com.svg"
+              alt="BURGER"
+              width={64}
+              height={64}
+              decoding="async"
+            />
+          </div>
+          <div className={styles.desktopNav}>
+            <Link href="/">Home</Link>
+            <Link href="/services">Treatments</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/packages">Packages</Link>
+          </div>
 
-        <Navbar showNav={showNav} setShowNav={setShowNav} />
+          <Navbar showNav={showNav} setShowNav={setShowNav} />
+        </div>
       </div>
 
       <div

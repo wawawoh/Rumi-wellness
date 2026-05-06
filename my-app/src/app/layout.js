@@ -1,5 +1,6 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Temp from "./components/temp";
 import "./globals.css";
 import { Noto_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         >
           <Header />
         </header>
+        <Temp />
         {children}
         <Footer />
       </body>
